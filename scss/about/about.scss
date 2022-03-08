@@ -5,25 +5,34 @@
 
     .about-header{
         h1{
+            font-size: 60px;
             margin-bottom: 5px;
         }
         hr{
-            width: 12px;
+            width: 151px;
             background-color: black;
             border:1px solid;
+            margin-bottom: 37px;
         }
         
     }
     .about-client-quotes
     {
         .client-quote-title{
+            font-size: 40px;
+        }
 
+        hr{
+            width: 255px;
+            background-color: black;
+            border:1px solid;
+            margin-bottom: 37px;
         }
 
         margin-top: 107px;
         .client-quote-wrapper{
             max-width: 722px;
-            background-color: antiquewhite;
+            
             display:flex;
             position: relative;
             margin-bottom: 37px;
@@ -33,7 +42,7 @@
                 height:150px;
                 overflow: hidden;
                 margin-right: 21px;
-                background-color: red;
+                
                 img{
                     width:100%;
                 }
@@ -41,7 +50,7 @@
 
             .client-quote{
                 width: 440px;
-                background-color: blue;
+                
                 margin-bottom: 20px;
             }
 
@@ -49,6 +58,7 @@
                 position:absolute;
                 bottom: 0;
                 right:0;
+                color: $common-background
             }
         }
     }
